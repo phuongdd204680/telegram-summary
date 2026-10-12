@@ -1,0 +1,35 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Telethon Session & Credentials
+*.session
+*.session-journal
+*.session-wal
+*.session-shm
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+permissions.json
+
+# IDE & OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+Desktop.ini
+.DS_Store
